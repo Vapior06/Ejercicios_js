@@ -1,0 +1,75 @@
+body{
+    background: #cf9ce4e7;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #3d157e;
+    font-size: 60px;
+    font-weight: 300;
+}
+h2{
+    color: #ad24a7;
+    font-size: 20px;
+
+}
+p{
+    font-size: 22px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+#hero{
+    width: 50%;
+    border-radius: 30%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+form{
+    background: linear-gradient(#7474f0da, #88e7b8da);
+    width: 80%;
+    max-width: 400px;
+    margin: 40px auto;
+    color: aliceblue;
+    padding: 40px 70px;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: left;
+
+}
+form label{
+    width: 100px;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+form input, 
+form textarea
+form select{
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 86%;
+    /* background: transparent; */
+    border: 1px solid white;
+}
+
+form button{
+    background: black;
+    color: #ffffff;
+    padding: 15px 50px;
+    font-size: 22px;
+    width: 100%;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+form button:hover{
+    background: transparent;
+    border: 2px solid #5f07ee;
+    border-radius: 20px;
+    color: #000000;
+}
